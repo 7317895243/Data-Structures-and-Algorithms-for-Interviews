@@ -87,9 +87,9 @@ if __name__ == '__main__':
     q.enQueue(11)
     q.enQueue(12)
     q.enQueue(13)
-	deleted = q.dequeue()
-	print("Deleted Element is: ", deleted)
-	print("Front element is: ", q.peek())
+    deleted = q.deQueue()
+    print("Deleted Element is: ", deleted)
+    print("Front element is: ", q.peek())
 
 
 
